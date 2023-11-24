@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	    int weekAmount = dollarADay(7);
         System.out.println(weekAmount);
-        int monthAmount = dollarADay(31);
+        int monthAmount = dollarADay(28);
         System.out.println(monthAmount);
         int halfYearAmount = dollarADay(180);
         System.out.println(halfYearAmount);
