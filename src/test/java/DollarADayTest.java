@@ -12,4 +12,13 @@ class DollarADayTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    void throws_zero_error(){
+        DollarADay dollarADay = new DollarADay();
+        int expected = 0;
+        int actual = dollarADay.calculateTotal(0);
+
+        assertEquals(expected, actual);
+    }
 }

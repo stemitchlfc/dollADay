@@ -12,6 +12,8 @@ public class Main {
         System.out.println(yearAmount);
         int leapYear = dollarADay.calculateTotal(366);
         System.out.println(leapYear);
+        int zero = dollarADay.calculateTotal(0);
+        System.out.println(zero);
     }
 
 
